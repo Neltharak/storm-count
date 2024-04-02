@@ -203,5 +203,10 @@ function fourPlayers()
   initializeGame()
 }
 
+function fivePlayers()
+{
+  headerEl.textContent = "No. Eat one player instead."
+}
+
 contentEl = document.getElementById("divvy")
 headerEl = document.getElementById("header")
