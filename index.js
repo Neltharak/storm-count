@@ -19,6 +19,9 @@ return 0
 }
 
 // Forgive me good practice gods, i wanna move on
+// Could not figure out how to pass arguments to functions from the HTML so i could just get just one function with the player number as an argument instead of whatever this is
+// Code so moist it's a dark souls swamp, forgive me i level dex
+// it works tho
 
 function p1plusOne()
 {
@@ -165,7 +168,7 @@ function initializeGame()
   contentEl.textContent = ""
   while (i <= playerCount)
   {
-    console.log("Entered while")
+    console.log("Entered while") 
     newHtml += `<div class='gamebuttons'>
     <button onclick="p${i}minusOne()">-</button>
     <button onclick="p${i}plusOne()">+</button>
@@ -173,7 +176,7 @@ function initializeGame()
     <button onclick="p${i}minusFive()">-5</button>
     <button onclick="p${i}plusFive()">+5</button>
     </div>`
-    i++
+    i++ // Could not figure out how to import the above HTML from another file or template so it's just there. 
   }
   console.log ("exited while")
   console.log(newHtml)
@@ -181,6 +184,7 @@ function initializeGame()
   contentEl.innerHTML = newHtml
 }
 
+// Same thing here, just tried to get something unique handling everything and couldnt figure out how to get arguments. 
 function twoPlayers()
 {
   playerCount = 2
