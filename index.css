@@ -1,49 +1,32 @@
 body {
-    background-image: url("mtg.jpg");
-    background-size: cover;
-    font-family: -'Helvetica Neue', apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
+    background-image:url("mtg.jpg");
+    background-size:cover; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
     text-align: center;
 }
 
-h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-button {
-    border: 1px solid white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    width: 100px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-}
-
-.divmizzet{
-max-width: 50%;
+.gamebuttons{
+color: white;
+font-size:30px;
+border: 2px solid black;
+max-width: 15%;
 margin: auto;
-border: 3px solid black;
-background: white;
+border: 1px solid white;
+background: black;
 border-radius: 5px;
 }
 
-#increment-btn {
-    background: red;
-}
-
-#save-btn {
-    background: darkcyan;
-}
-
-#misc-btn {
-    background: darkblue
+button {
+    background-color:yellow;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-size:20px;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
