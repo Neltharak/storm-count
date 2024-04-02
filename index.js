@@ -169,7 +169,7 @@ function initializeGame()
     newHtml += `<div class='gamebuttons'>
     <button onclick="p${i}minusOne()">-</button>
     <button onclick="p${i}plusOne()">+</button>
-    <div id="p${i}HPEl">0</div>
+    <div id="p${i}HPEl">40</div>
     <button onclick="p${i}minusFive()">-5</button>
     <button onclick="p${i}plusFive()">+5</button>
     </div>`
