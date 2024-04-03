@@ -140,7 +140,7 @@ function p4plusFive()
   let hpEl = document.getElementById("p4HPEl")
   console.log("Entered p1+1")
   p4HP+=5
-  hpEl.innerText = pHP
+  hpEl.innerText = p4HP
 }
 
 function p4minusFive()
