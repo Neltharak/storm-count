@@ -156,7 +156,7 @@ function p4minusFive()
   let hpEl = document.getElementById("p4HPEl")
   console.log("Entered p1+1")
   p4HP-=5
-  hpEl.innerText = p1HP
+  hpEl.innerText = p4HP
 }
 
 function initializeGame()
